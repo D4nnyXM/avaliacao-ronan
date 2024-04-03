@@ -1,0 +1,51 @@
+.palestrantesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray);
+    padding: 32px;
+    gap: 32px;
+}
+
+.palestrantesCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 48px;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    gap: 16px;
+    border-radius: 16px;
+    background-color: var(--white);
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 32px;
+    gap: 16px;
+}
+
+.card div header {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.card div span {
+    font-weight: 600;
+}
+
+.palestrantesContainer button {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1rem 2rem;
+    font-weight: 600;
+    border: none;
+    max-width: 30%;
+}

@@ -1,0 +1,30 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img { 
+    width: 30px;
+    height: 45px;
+}
+
+.logo, .navMenu {
+    flex: 1;
+}
+
+.navMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 2rem;
+}

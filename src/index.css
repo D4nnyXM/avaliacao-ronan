@@ -1,0 +1,30 @@
+:root {
+    --font-size: sans-serif;
+    --red: #CD191E;
+    --green: #2F9E41;
+    --white: #fff;
+    --black: #000;
+    --gray: #d3d3d3;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--font-size);
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    background-color: var(--white);
+}
+
+p,
+span,
+a,
+input,
+textarea {
+    font-size: 16px;
+}
